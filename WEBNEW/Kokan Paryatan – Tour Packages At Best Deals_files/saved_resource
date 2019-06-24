@@ -1,0 +1,288 @@
+/* Enter Your Custom CSS Here */
+.traveltour-item-pdlr > div > a > img {
+    max-width: 60%;
+    height: auto;
+    margin-top: -17px;
+    padding-bottom: 0px;
+}
+
+.traveltour-navigation .sf-menu > li {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.gdlr-core-testimonial-position, .gdlr-core-info-font, .gdlr-core-skin-caption {
+text-align: center!important;
+    font-size: 18px!important;
+}
+
+.gdlr-core-testimonial-title .gdlr-core-title-font .gdlr-core-skin-title {
+    font-size: 20px!important;
+}
+
+.traveltour-header-background-transparent .traveltour-header-background {
+    opacity: 1;
+}
+
+.traveltour-navigation .sf-menu > li > a {
+    letter-spacing: 0px;
+      text-shadow: 0px 0px 1px #9e9e9e;
+}
+.traveltour-animate-fixed-navigation.traveltour-header-style-plain .traveltour-logo {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.traveltour-fixed-navigation.traveltour-style-slide .traveltour-logo-inner img {
+    max-height: 100px !important;
+    width: auto;
+}
+
+.traveltour-sticky-navigation.traveltour-fixed-navigation .traveltour-header-background {
+    background: rgb(255, 255, 255);
+}
+
+
+
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail .tourmaster-tour-category-count, .tourmaster-body .tourmaster-tour-category-grid .tourmaster-tour-category-head-link {
+    color: #4692e7;
+    display: none;
+}
+
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail .tourmaster-tour-category-title {padding-bottom: 20px;}
+
+.gdlr-core-testimonial-style-center .gdlr-core-testimonial-quote {
+
+    padding: 0px 0px 0px; 
+}
+
+.menu-image-title {
+    color: #adaaaa!important;
+    border-bottom: 2px solid #5f5b5b!important;
+    padding-bottom: 7px!important;
+}
+
+.traveltour-navigation .sf-menu > .traveltour-normal-menu li > a {
+    display: block;
+    padding: 8px 30px 8px 15px;
+}
+
+.traveltour-navigation .sf-menu > .traveltour-normal-menu li:first-child {
+    padding-top: 0px!important;
+}
+
+.traveltour-navigation .sf-menu > .traveltour-normal-menu li {
+    padding: 0px;
+    border-bottom: 1px solid #353535!important;
+}
+
+.traveltour-navigation .sf-menu > .traveltour-normal-menu li:last-child {
+    padding-bottom: 0px!important;
+}
+
+.traveltour-copyright-text {
+    padding-bottom: 38px;
+    font-family: roboto;
+    color: #e8e8e8;
+}
+
+.traveltour-navigation .sf-menu > li > a {
+    padding-bottom: 25px;
+}
+@media only screen and (min-width : 480px) {
+div.traveltour-logo.traveltour-item-pdlr > div > a > img {margin-left: 40px;}
+}
+
+table tr th {
+    background-color: #468ee7!important;
+}
+
+
+.traveltour-mobile-menu-button i {
+    color: #000000;
+}
+
+.traveltour-top-bar-right .tourmaster-user-top-bar {
+    display: none;
+}
+@media only screen and (max-width:1024px) {
+.traveltour-navigation .sf-menu > li > a, .traveltour-navigation .sf-vertical > li > a {
+    font-size: 10px;
+}
+}
+
+
+ul.mm-listview li {
+    margin: 0px 0px;
+}
+
+table tr td {
+    border: 1px solid gainsboro;
+    color: #1c1c1c;
+   background: unset!important;
+     padding: 10px 8px 10px 10px!important;
+    text-align: left!important;
+  font-family: Roboto!important;
+}
+
+
+table tr th {
+    background-color: #468ee7!important;
+    border: 1px solid;
+    border-color: #aeaeae!important;
+  padding: 10px 15px!important;
+    text-align: left!important;
+}
+
+.gdlr-core-toggle-box-style-background-title .gdlr-core-toggle-box-item-title {
+    font-size: 16px;
+}
+
+.gdlr-core-toggle-box-style-background-title .gdlr-core-active .gdlr-core-toggle-box-item-title  {color: #000000;
+    border: 1px solid gainsboro;}
+
+.gdlr-core-toggle-box-style-background-title .gdlr-core-toggle-box-item-title .gdlr-core-head {color: #cb0000;}
+
+.gdlr-core-toggle-box-style-background-title .gdlr-core-toggle-box-item-title {
+        font-weight: 500;
+    padding: 10px 25px 10px!important;
+  border: 1px solid gainsboro;
+  
+}
+
+body .gdlr-core-icon-list-item .gdlr-core-icon-list-content {
+    font-weight: 400!important;
+    font-family: roboto;
+      color: #000000!important;
+  font-size: 15px!important;
+}
+
+div.gdlr-core-toggle-box-item-content-wrapper > div > p {
+    margin-left: 24px;
+}
+
+table {
+    margin-bottom: 0px;
+}
+
+.gdlr-core-toggle-box-style-background-title .gdlr-core-toggle-box-item-title {   
+    margin-bottom: 6px!important;
+    margin-top: 6px!important;}
+
+div.gdlr-core-toggle-box-item-content-wrapper > div > p {    margin-bottom: 6px!important;}
+
+.tourmaster-single-related-tour {
+    margin-bottom: 0px;
+}
+
+.gdlr-core-widget-list-shortcode {
+    color: #525252!important;
+}
+
+.tourmaster-single-related-tour .tourmaster-single-related-tour-title {
+    text-transform: uppercase;
+}
+
+table tr th {
+    background-color: #467ae7!important;
+}
+
+table > tbody > tr > th > span {    color: #f9f9f9!important;
+    font-weight: 500;}
+
+.single-tour .tourmaster-tour-info-outer {
+    background-color: #f5f5f5;
+    display: none;
+}
+
+tbody > tr > td > span > span {font-family: Roboto!important;}
+
+.gdlr-core-title-item .gdlr-core-title-item-title {
+    text-transform: uppercase!important;
+}
+
+b, strong {
+    font-weight: 500;
+  color: #cb0000;
+}table tr th {
+    background-color: #467ae7!important;
+}
+
+table > tbody > tr > th > span {    color: #f9f9f9!important;
+    font-weight: 500;
+font-family: Roboto!important;}
+
+.single-tour .tourmaster-tour-info-outer {
+    background-color: #f5f5f5;
+    display: none;
+}
+
+tbody > tr > td > span {font-family: Roboto!important;}
+
+.gdlr-core-title-item .gdlr-core-title-item-title {
+    text-transform: uppercase!important;
+}
+
+b, strong {
+    font-weight: 500;
+  color: #cb0000;
+}
+
+.tourmaster-tour-item {
+    padding-bottom: 0px; 
+}
+
+.tourmaster-single-review-content {
+    padding-left: 0px;
+}
+
+table {
+    border-spacing: 0px!important;
+    border-collapse: collapse!important;
+}
+
+.gdlr-core-testimonial-item .gdlr-core-testimonial-content {
+    color: #252525;
+}
+
+.tourmaster-content-navigation-item .tourmaster-content-navigation-tab {
+    color: #1e1e1e;
+}
+
+.tourmaster-content-navigation-item .tourmaster-content-navigation-tab.tourmaster-active, .tourmaster-content-navigation-item .tourmaster-content-navigation-tab:hover {
+    color: #3973b9;
+}
+
+.tourmaster-tour-grid.tourmaster-tour-frame .tourmaster-tour-content-wrap {
+    padding: 32px 12px 8px;
+}
+
+.tourmaster-tour-booking-bar-wrap .tourmaster-tour-booking-enquiry-wrap {
+    background: #e6e2de;
+      padding: 25px 30px 35px;
+}
+
+.traveltour-footer-wrapper {
+    padding-top: 50px;
+}
+
+.traveltour-footer-wrapper {
+    padding-bottom: 24px;
+}
+
+@media only screen and (max-width:480px) {
+  .traveltour-item-pdlr, .gdlr-core-item-pdlr {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+  
+  .tourmaster-single-header-top-overlay {background: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(49, 49, 49)150%);}
+}
+
+.gdlr-core-toggle-box-item-tab.gdlr-core-active .gdlr-core-toggle-box-item-content {
+    border: 1px solid gainsboro;
+}
+
+.gdlr-core-toggle-box-style-background-title .gdlr-core-toggle-box-item-content {
+    padding: 10px 0px 2px!important;
+}

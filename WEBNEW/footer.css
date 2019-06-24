@@ -1,0 +1,15 @@
+.footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    background: #000000;
+    color: white;
+}
+.footer .address{
+  overflow: visible;
+  padding-left: 60px;
+  text-align: left;
+}
+.partners{
+  float:right;
+}

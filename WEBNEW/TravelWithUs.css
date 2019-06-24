@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  background-image: url(C:\Users\ujwal\Desktop\WEBNEW\logo.png);
+  padding: 0px;
+padding-left: 10px;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+    font-size: 40px;
+    background-color: black;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    width: 33%;
+}
+
+
+/* Right-aligned link */
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+    background-color: #0d0d0d;
+    color: white;
+}
+.introduction{
+
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Carrois Gothic';
+  font-size: 22px;
+}
+h1{
+  text-decoration: underline;
+  font-weight: bold;
+    font-family: 'Carrois Gothic';
+}
+.aboutm{
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+h2{
+
+  font-weight: bold;
+    font-family: 'Carrois Gothic';
+}
+.packages{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* NOTE: cards */
+.cardl {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 670px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: #f0f0f0;
+  border-width: thick;
+  border-style: double;
+  float: left;
+  height: 750px;
+
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.cardl button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.cardl button:hover {
+  opacity: 0.7;
+}
+
+.cardr {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 670px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: #f0f0f0;
+  border-width: thick;
+  border-style: double;
+  float: right;
+  height: 750px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.cardr button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.cardr button:hover {
+  opacity: 0.7;
+}
+
+.cardc {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  align-items: center;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.cardc button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.cardc button:hover {
+  opacity: 0.7;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  font-weight: bolder;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.maintitle{
+  font-size: 45px;
+}
+
+
+.packages .p{
+  font-family: monospace;
+  font-size: 22px;
+}

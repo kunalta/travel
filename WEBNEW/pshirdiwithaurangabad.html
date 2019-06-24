@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="tour.css">
+    <link rel="stylesheet" href="gothic.css">
+    <title>Ajanta Ellora Tour</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+          <img src="logo-new.png" alt="">
+        </div>
+    </div>
+
+    <div class="navbar">
+      <a href="TravelMArathi.maha.html">Home</a>
+      <a href="#" class="active">Travel With Us</a>
+      <a href="#">Contact</a>
+    </div>
+    <br>
+
+
+<!-- NOTE: sildeshow -->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img class="slideimg" src="swa1.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img class="slideimg" src="swa2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img class="slideimg" src="swa3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img class="slideimg" src="ae4.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img class="slideimg" src="ae4.jpg" style="width:100%">
+</div>
+
+
+
+
+
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+
+
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<!-- NOTE: slideshowend -->
+
+<div class="detail">
+  <div class="overview">
+    <h2 align= "center"> OVERVIEW</h2>
+    <article>
+<p>The land of Maharashtra has always been admired for its characteristic features. It has been a place where cultural practices inspire human beings and attracts numerous nature lovers and vacationers to this state for a life-changing experience. One of the most important cultural aspects of Maharashtra’s cultural and religious fables is Shirdi, the far-famed abode of Sai Baba, the revered saint who lived his entire life like a beggar. The journey also entails visit to the Aurangabad City and Ajanta & Ellora Caves.</p>
+<p><b>Note</b>: This is just a suggested itinerary indicative of what could be possible. We tailor holidays for your specific needs. Contact us if you want modifications so that we could tailor a holiday to suit your need for an unforgettable India tour.</p>
+    </article>
+  <hr>
+
+    <h2 align="center">TRIP HIGHLIGHTS</h2>
+<ul>
+  <li>Pay your obeisance in shirdi sai temple</li>
+  <li>Guided tour to Ajanta and Ellora caves in Aurangabad</li>
+  <li>Explore Ajanta & Ellora caves in Aurangabad </li>
+  <li>Visit famous temple Shani Shingnapur Temple</li>
+</ul>
+<hr>
+</div>
+
+
+<!-- NOTE: collapsable -->
+<h2 align="center">ITERNARARY</h2>
+<button class="collapsible"><b>Day 1:Mumbai - Shirdi</b></button>
+<div class="content">
+<p>Upon arrival at the Mumbai Airport, you will be transferred to Shirdi, which is located around 193 kilometers from Mumbai airport and takes around 4 hours. Upon arrival, check into the hotel and enjoy the rest of the day in leisure. Stay overnight at the hotel in Shirdi.</p>
+</div>
+<br>
+<button class="collapsible"> <b>Day2:  Shirdi </b></button>
+<div class="content">
+<p>Post a leisurely breakfast in the morning, visit the famous Sai Baba Temple. The rest of the day is free to explore the sights and sounds of Shirdi. Later, return to the hotel for dinner and overnight stay.</p>
+</div>
+<br>
+<button class="collapsible"><b>Day 3:Shirdi - Aurangabad</b></button>
+<div class="content">
+<p>Post breakfast in the morning; leave from Shirdi to Aurangabad .On the way, visit famous Shani Shingnapur Temple, which is around 168 km from Shirdi. Later Visit the famous Ellora Caves which is recognized as a UNESCO World Heritage Site. It represents the epitome of Indian rock-cut architecture. In the evening, return back to the hotel for overnight stay. </p>
+</div>
+<br>
+<button class="collapsible"><b>Day 4:  Aurangabad - Ajanta caves</b></button>
+<div class="content">
+<p>Post breakfast in the morning; embark on a full day excursion to Ajanta Caves. The Ajanta Caves have been a UNESCO World Heritage Site since 1983. Here you can enjoy excellent view and perspective of the Kailash temple by climbing up the hill around it. It has immense size covers twice the area of the Pantheon in Athens and 1.5 times as high. In the evening, return back to the hotel for an overnight stay.</p>
+</div>
+
+<br>
+<button class="collapsible"><b>Day 5:  Aurangabad - Mumbai (Departure)</b></button>
+<div class="content">
+  <p>In the morning, after breakfast, check out of the hotel and get transferred to Mumbai airport for onwards journey.
+</p>
+</div>
+
+
+<br>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+<br><br>
+
+
+<a href="checkout.html"><button class="block">Checkout Now</button></a>
+
+<div class="footer">
+  <div class="partners">
+    <p> <b>Our Pratners:</b></p>
+    <img src="logoirctc.png" alt="">
+    <img src="logomtdc.png" alt="">
+    <img src="logoskyscanner.png" alt="">
+    <img src="logoyatra.png" alt="">
+  </div>
+     <div class="address">
+    <h2>Meet Us At</h2>
+      <p>103, Om Siddhivinayak CHS. Ltd.,<br>
+Sakharam Keer Marg, Near Shiv Sena Bhavan,<br>
+Shivaji Park, Aurangabad , 4310 003.<br>
+Maharashtra, India.</p>
+</div>
+
+
+  </body>
+</html>

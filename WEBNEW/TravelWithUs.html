@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="TravelWithUs.css">
+    <link rel="stylesheet" href="gothic.css">
+    <link rel="stylesheet" href="Charmonman.css">
+    <link rel="stylesheet" href="footer.css">
+    <script type="text/javascript" src="jquery.js">
+    </script>
+    <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+    <title>TravleWithUs</title>
+    <script type="text/javascript">
+    // When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+  } else {
+      document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+          <img src="logo-new.png" alt="">
+        </div>
+    </div>
+
+    <div class="navbar">
+      <a href="TravelMArathi.maha.html">Home</a>
+      <a href="#" class="active">Travel With Us</a>
+      <a href="contactus.html">Contact Us</a>
+    </div>
+    <br>
+    <h1 align="center" style=" color: red; text-decoration: underline; " class="maintitle" >  Maharashtara Travel Guide </h1>
+      <div class="aboutm">
+            <a href="#packages">    <img src="atglance.PNG" alt=""></a>
+      </div>
+
+    <div class="introduction">
+
+      <h2 align="center"> <u>INTRODUCTION</u> </h2>
+      <article >
+          <p>Maharashtra is India’s third largest and the second most visited tourist destination by foreign tourists. The vast, multi-faceted and sprawling state of Maharashtra can best be understood by browsing through Maharashtra Travel Guide. Having bustling cities like Mumbai, Pune, Aurangabad and some of the most awe-inspiring hill-stations like Mahabaleshwar and Matheran; Maharashtra is amongst India’s fastest growing and populous states of India.</p>
+          <p>It is located on the western coast of India; apart from gold-sand beaches like Aksa Beach, there are treasures like Marine Drive meant for rejuvenation. Bollywood film industry, which is gradually taking over the world of cinemas thrives here in Maharashtra.</p>
+          <p>And when it comes to religion, history and heritage; Ajanta & Ellora Caves, Shirdi, Haji Ali Dargah, and Mount Mary Church are endowed with profuse charm.  Former rulers further adorned the state with their signature architecture and added cherry on the cake. This is evident in Gateway of India, Chhatrapati Shivaji Terminus, Pratapgad Fort and many others. Also, festivals like Ganesh Chaturthi, Ellora Festival and Banganga Festival give an insight of Maharashtrian culture.</p>
+          <p>Beaches, heritage, history, spirituality and festivals combine to cause a blooming scenario of tourism in Maharashtra. Indian Holiday presents a well-arrayed travel guide to Maharashtra so that you have nothing to fuss about.</p>
+      </article>
+    </div>
+        <h2 align="center"> ------------ Popular Packages In Maharashtara ------------ </h2>
+<!-- NOTE: Here are the Packages -->
+<div class="packages" id="packages">
+<!-- NOTE: card1  -->
+  <div class="cardl">
+  <img src="tws1gateway.jpg" alt="Gateway of India" >
+  <h1 > Tour of The Dreamcity </h1>
+  <p class="price"> ₹ 3,999 </p>
+  <p>Mumbai, formerly Bombay, is big. It’s full of dreamers and hard-labourers,<br> starlets and gangsters, stray dogs and exotic birds, artists and servants, fisherfolk and crorepatis (millionaires), and lots and lots of people. It has India’s most prolific film industry "Bollywood" <br><br><br> </p>
+
+  <a href="pdreamcitytour.html"><p><button> View Details </button></p></a>
+  </div>
+<!-- NOTE: card2  -->
+  <div class="cardr">
+  <img src="tws2ajanta.jpg" alt="ajanta caves" >
+  <h1 > Ajanta and Ellora Caves Tour </h1>
+  <p class="price"> ₹ 5,999</p>
+  <p>Superbly set in a remote river valley 105km northeast of Aurangabad, the remarkable cave temples of Ajanta are this region’s second World Heritage Site. Much older than Ellora, these secluded caves date from around the 2nd century BC to the 6th century AD and were among the earliest monastic institutions to be constructed in the country. Ironically, it was Ellora’s rise that brought about Ajanta’s downfall and historians believe the site was abandoned once the focus shifted to Ellora.</p>
+
+  <a href="pajantaellora.html"><p><button> View Details </button></p></a>
+  </div>
+
+  <!-- NOTE: card3  -->
+    <div class="cardc">
+    <img src="tws3goa.jpg" alt="goa" >
+      <h1 > Mumbai Goa Tour </h1>
+    <p>Indulge in a memorable vacation to Goa on the next string of holidays you come across on the calendar. The Mumbai to Goa packages will delight you with popular tourist attractions, sightseeing the pristine beaches, partying all night in Goan night clubs and rejuvenate the mind and body with a range of enthralling experience when you set on a holiday from Mumbai to Goa.</p>
+
+    <p class="price"> ₹ 10,999 </p>
+
+    <a href="pmumbaigoa.html"><p><button> View Details </button></p></a>
+  </div>
+
+  <!-- NOTE: card4  -->
+    <div class="cardl">
+    <img src="tws4shirdi.jpg" alt="shirdi" >
+      <h1 > Shirdi With Aurangabad </h1>
+<p>Located in the district of Ahmednagar in Maharashtra, Shirdi is one of the most significant religious destinations in India. It is just 190 km from Pune and 240 km from Mumbai. The town is known for being the abode of Sai Baba, the great saint who passed away in the year 1918. <br><br><br> </p>
+    <p class="price"> ₹ 4,999 </p>
+
+    <a href="pshirdiwithaurangabad.html"><p><button> View Details </button></p></a>
+  </div>
+
+  <!-- NOTE: card5  -->
+    <div class="cardr">
+    <img src="tws5bestofmaha.jpg" alt="Best of Maharashtra" >
+    <h1 > Best of Maharashtra </h1>
+    <p class="price"> ₹ 6,499 </p>
+<p>The state of Maharashtra is the Home of Sahydri Mountains, the state has many appealing hill stations. The Britishers founded most of these hill stations during their colonial era to beat the scorching heat. But the beauty and the charming glory are still alive in these hill stations. The Western Ghats, which form a part of the Sahydri range, has also lots of beautiful hill stations. <br><br> </p>
+  <a href="pbestofmaha.html">  <p><button> View Details </button></p></a>
+    </div>
+    <br><br><br><br>
+    <!-- NOTE: card6  -->
+      <div class="cardc">
+      <img src="tws6wild.jpg" alt="Tiger" >
+        <h1 > Wildlife of Maharashtra </h1>
+          <p class="price"> ₹ 9,999 </p>
+<p>Maharashtra state is home to many rare species of flora and fauna in 17 wildlife sanctuaries and national parks. Wildlife safari in important sanctuaries of Maharashtra inlcude Tadoba National Park, Sanjay Gandhi National Park,Pench National Park, Bharmragarh Sanctuary,Chaprala Wildlife Sanctuary,Bor Wildlife Sanctuary, Nagzira Wildlife Sanctuary,Radhanagari Wildlife Sanctuary, Karnala Bird Sanctuary and Bhigwan Bird Sanctuary.</p>
+
+
+      <a href="pwildlife.html">  <p><button> View Details </button></p></a>
+    </div>
+
+    <!-- NOTE: card7  -->
+      <div class="cardl">
+      <img src="tws7mahabaleshwar.jpg" alt="Mahabaleshwar" >
+      <h1 > Magical Mahabaleshwar Tour </h1>
+      <p class="price"> ₹ 3,499 </p>
+<p>The city of Mahabaleshwar is a pinnacle of greenery, boasting one of the only evergreen forests in the world. The landscape abounds with lush hills, valleys and lookout points such as Lodwick Point, Arthur's Seat and Babington Point, all of which offer spectacular views. Trot along on horseback for a delightful four-legged tour of the gorgeous Venna Lake area, and savour juicy native strawberries, mulberries and corn. <br><br> </p>
+    <a href="pmagicalmahabaleshwar.html" > <p><button> View Details </button></p></a>
+      </div>
+
+      <!-- NOTE: card8  -->
+        <div class="cardr">
+        <img src="tws8saputara.jpg" alt="Spautara" >
+        <h1 > Escape to Saputara </h1>
+        <p class="price"> ₹ 3,999 </p>
+<p>Positioned on the Maharashtra- Gujarat border in Dang District in the beautiful state of Gujarat, Saputara is blessed with marvelous waterfalls, cool climate, snow capped mountains, magnificent gardens, scenic beauty and oodles of attractions that entice the tourists from various parts of the world. According to Hindu myths, Lord Rama had stayed for 11 years in the dense woods of Saputara. <br><br> </p>
+      <a href="psaputaraescape.html">  <p><button> View Details </button></p></a>
+        </div>
+
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+
+<div class="footer">
+  <div class="partners">
+    <p> <b>Our Pratners:</b></p>
+    <img src="logoirctc.png" alt="">
+    <img src="logomtdc.png" alt="">
+    <img src="logoskyscanner.png" alt="">
+    <img src="logoyatra.png" alt="">
+  </div>
+     <div class="address">
+    <h2>Meet Us At</h2>
+      <p>103, Om Siddhivinayak CHS. Ltd.,<br>
+Sakharam Keer Marg, Near Shiv Sena Bhavan,<br>
+Shivaji Park, Aurangabad , 4310 003.<br>
+Maharashtra, India.</p>
+</div>
+
+
+  </body>
+</html>

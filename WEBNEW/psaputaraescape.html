@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="tour.css">
+    <link rel="stylesheet" href="gothic.css">
+    <title> Wildlife of Maharashtra</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+          <img src="logo-new.png" alt="">
+        </div>
+    </div>
+
+    <div class="navbar">
+      <a href="TravelMArathi.maha.html">Home</a>
+      <a href="#" class="active">Travel With Us</a>
+      <a href="#">Contact</a>
+    </div>
+    <br>
+
+
+<!-- NOTE: sildeshow -->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img class="slideimg" src="sap1.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img class="slideimg" src="sap2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img class="slideimg" src="sap3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img class="slideimg" src="sap4.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img class="slideimg" src="sap5.jpg" style="width:100%">
+</div>
+
+
+
+
+
+
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+
+
+
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<!-- NOTE: slideshowend -->
+
+<div class="detail">
+  <div class="overview">
+    <h2 align= "center"> OVERVIEW</h2>
+    <article>
+Satpura is located in the Dang district of Gujarat. It is a popular hill station and tourists from all over the world visit here. The place has a lot to offer to the tourists when it comes to famous attractions and sightseeing places. Short escape to Saputara by Indian Holiday is a 3 days/2 nights tour which takes you through beautiful attractions such as Saputara Lake, Nageshwar Mahadev Temple and Sunrise Point. It also includes visit to the beautiful Step Garden and Rose Garden. With this tour package, you can spend some quality time with your family and friends at famous tourist spots.
+</p>
+<p><b>Note</b>: This is just a suggested itinerary indicative of what could be possible. We tailor holidays for your specific needs. Contact us if you want modifications so that we could tailor a holiday to suit your need for an unforgettable India tour.</p>
+    </article>
+  <hr>
+
+    <h2 align="center">TRIP HIGHLIGHTS</h2>
+<ul>
+  <li>Visit to Saputara Lake</li>
+  <li>Visit to Nageshwar Mahadev Temple</li>
+  <li>Visit to beautiful Step Garden and Rose Garden</li>
+  <li>Visit to Sunrise Point</li>
+
+</ul>
+<hr>
+</div>
+
+
+<!-- NOTE: collapsable -->
+<h2 align="center">ITERNARARY</h2>
+<button class="collapsible"><b>Day 1:  Mumbai-Saputara</b></button>
+<div class="content">
+<p>After you arrive at the Mumbai airport / railway station, meet our ihpl representative and drive to Saputara. Check-in to the hotel and take some rest for the day. In the evening, you can visit Satpura Lake which is located at the center of the Satpura Valley.</p>
+<p>The lake offers a picturesque view of the hilly surroundings. It is a famous picnic and boat spot and tourists from all over love to spend some good time at this place. After sightseeing at the Satpura Lake, have a comfortable stay at the hotel.</p>
+
+</div>
+<br>
+<button class="collapsible"> <b>Day2: Saputara</b></button>
+<div class="content">
+<p>Start the day by seeking blessings at the Nageshwar Mahadev Temple located on the southern bank of the Saputara Lake. The surroundings of the temple offer breathtaking views. After Darshan and aarti ceremony, go out to explore the other tourist attractions in Saputara.</p>
+<p>Visit the beautiful Sunrise Point, Step Garden and Rose Garden. Enjoy visit to the exciting Ropeway of Saputara. Stay overnight at the hotel.</p>
+</div>
+<br>
+<button class="collapsible"><b>Day 3 :Saputara- Mumbai</b></button>
+<div class="content">
+<p>Munch breakfast in the morning and then leave for Mumbai. After arriving Mumbai, our ihpl representative will help you take a transfer to the airport/railway station for your onward destination.</p>
+</div>
+<br>
+
+<hr>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+<br><br>
+
+
+<a href="checkout.html"><button class="block">Checkout Now</button></a>
+
+<div class="footer">
+  <div class="partners">
+    <p> <b>Our Pratners:</b></p>
+    <img src="logoirctc.png" alt="">
+    <img src="logomtdc.png" alt="">
+    <img src="logoskyscanner.png" alt="">
+    <img src="logoyatra.png" alt="">
+  </div>
+     <div class="address">
+    <h2>Meet Us At</h2>
+      <p>103, Om Siddhivinayak CHS. Ltd.,<br>
+Sakharam Keer Marg, Near Shiv Sena Bhavan,<br>
+Shivaji Park, Aurangabad , 4310 003.<br>
+Maharashtra, India.</p>
+</div>
+
+
+  </body>
+</html>

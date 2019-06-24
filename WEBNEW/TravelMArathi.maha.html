@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TravelMarathi.maha</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="locationcards.css">
+
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">
+      <img src="logo-new.png" alt="">
+    </div>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="TravelWithUs.html">Travel With Us</a>
+  <a href="contactus.html">Contact Us</a>
+</div>
+
+<br><br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="ss1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="ss2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="ss3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="ss4.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="ss5.jpg" style="width:100%">
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<img src="iimmgg1.png" alt="">
+<hr>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="locations">
+  <h3 align="center"> <u>POPULAR DESTINATIONS</u> </h3>
+  <p align="center">To make you Travel Dream a long-cherished sweet memory by assisting with peerless quality and matchless services.</p>
+
+
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+  </div>
+
+  <!-- The four columns -->
+  <div class="row">
+    <div class="column">
+      <img src="lc1 (2).jpg" alt="Mumbai" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="lc2.jpg" alt="Lonavala" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="lc8.jpeg" alt="Tadoba Tigar Reserve" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="lc4.jpg" alt="Aurangabad" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="lc5.jpg" alt="Goa" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="lc6.jpg" alt="Shirdi" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="lc7.jpg" alt="Ellora" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="lc3.jpg" alt="Saputara" style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+</div>
+<hr>
+<br>
+<div class="iimmgg">
+  <img src="iimmgg3.jpg" alt="" style="width:1300px;height:500px;">
+  <div class="centered">
+    <h2>BOOK YOUR TOUR NOW..!!</h2>
+    <p>Holidays that reflect what matters to you, from budget <br>  and board basis  to star ratings and holiday style. </p>
+  </div>
+<a href="contactus.html">  <button class="btn"> Get In Touch</button></a>
+</div>
+<br>
+<img src="iimmgg2.png" alt="">
+
+<div class="footer">
+  <div class="partners">
+    <p> <b>Our Pratners:</b></p>
+    <img src="logoirctc.png" alt="">
+    <img src="logomtdc.png" alt="">
+    <img src="logoskyscanner.png" alt="">
+    <img src="logoyatra.png" alt="">
+  </div>
+     <div class="address">
+    <h2>Meet Us At</h2>
+      <p>103, Om Siddhivinayak CHS. Ltd.,<br>
+Sakharam Keer Marg, Near Shiv Sena Bhavan,<br>
+Shivaji Park, Aurangabad , 4310 003.<br>
+Maharashtra, India.</p>
+</div>
+
+<script>
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+}
+</script>
+
+
+
+</body>
+</html>
